@@ -4,25 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87637fac-bb40-4acf-b6d5-b4c05413311f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trabajo/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trabajo/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/trabajo/hello-view.fxml" afterDir="false" />
+    <list default="true" id="87637fac-bb40-4acf-b6d5-b4c05413311f" name="Changes" comment="KLK">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/Bucle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/ElementoLe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/ListaEnlazed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Agua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Comida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Montaña.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Pozo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Recursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Tesoro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,29 +43,50 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2fdOm0yepnKMVwVPN3DZNHuOz1T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.trabajo.HelloApplication" />
+      <module name="TRABAJO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.trabajo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,10 +103,35 @@
       <option name="presentableId" value="Default" />
       <updated>1714127661658</updated>
       <workItem from="1714127662753" duration="308000" />
+      <workItem from="1714128008790" duration="317000" />
+      <workItem from="1714128361070" duration="66000" />
+      <workItem from="1714128563950" duration="18000" />
+      <workItem from="1714128883175" duration="182000" />
+      <workItem from="1714554923911" duration="5039000" />
+      <workItem from="1714561924476" duration="11000" />
+      <workItem from="1714561947524" duration="32000" />
+      <workItem from="1714561996144" duration="26000" />
+      <workItem from="1714562037201" duration="36000" />
+      <workItem from="1714562089026" duration="21000" />
+      <workItem from="1714562126857" duration="74000" />
+      <workItem from="1714562232861" duration="595000" />
     </task>
+    <task id="LOCAL-00001" summary="KLK">
+      <option name="closed" value="true" />
+      <created>1714128077428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714128077428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="KLK" />
+    <option name="LAST_COMMIT_MESSAGE" value="KLK" />
   </component>
 </project>
