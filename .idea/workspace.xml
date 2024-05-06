@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87637fac-bb40-4acf-b6d5-b4c05413311f" name="Changes" comment="KLK">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/Bucle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/ElementoLe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bucle/ListaEnlazed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Individuo/Individuo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Agua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Montaña.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Pozo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Recursos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Recursos/Tesoro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trabajo/Iniciadorjuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trabajo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trabajo/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +102,8 @@
       <workItem from="1714562037201" duration="36000" />
       <workItem from="1714562089026" duration="21000" />
       <workItem from="1714562126857" duration="74000" />
-      <workItem from="1714562232861" duration="595000" />
+      <workItem from="1714562232861" duration="1050000" />
+      <workItem from="1715010022334" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="KLK">
       <option name="closed" value="true" />
@@ -124,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714128077428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="KLK">
+      <option name="closed" value="true" />
+      <created>1714563162932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714563162932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
